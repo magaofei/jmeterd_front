@@ -7,10 +7,8 @@
       <el-header>
 
         <el-menu
-          :default-active="activeIndex2"
           class="el-menu-demo"
           mode="horizontal"
-          @select="handleSelect"
           background-color="#545c64"
           text-color="#fff"
           active-text-color="#ffd04b">
@@ -80,7 +78,7 @@
   margin-top: 60px; */
 }
 
-#nav {
+/* #nav {
   width: 12%;
   float: left;
   position: fixed;
@@ -91,6 +89,7 @@
   width: 88%;
   float: right;
 }
+*/
 
 #nav li {
   list-style-type: none;
