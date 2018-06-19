@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import TaskResult from './views/TaskResult.vue'
 import Task from './views/Task.vue'
 import TaskConfig from './views/TaskConfig.vue'
+import Machine from './views/Machine.vue'
 
 Vue.use(Router)
 
@@ -24,9 +25,14 @@ export default new Router({
       component: TaskResult
     },
     {
-      path: '/TaskConfig',
+      path: '/taskConfig',
       name: 'TaskConfig',
       component: TaskConfig
+    },
+    {
+      path: '/machine',
+      name: 'Machine',
+      component: Machine
     }
   ]
 })

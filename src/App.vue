@@ -49,6 +49,7 @@
               <li><router-link to="/task">任务</router-link></li>
               <li><router-link to="/taskResult">任务结果</router-link></li>
               <li><router-link to="/taskConfig">任务配置</router-link></li>
+              <li><router-link to="/machine">机器配置</router-link></li>
             </ul>
             
           </div>

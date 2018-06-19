@@ -6,14 +6,35 @@
     :data="tableData"
     stripe
     style="width: 100%">
+
+    <el-table-column
+      prop="name"
+      label="任务状态"
+      width="180">
+    </el-table-column>
+    
     <el-table-column
       prop="name"
       label="姓名"
       width="180">
     </el-table-column>
+
+
     <el-table-column
-      prop="date"
-      label="日期"
+      prop="name"
+      label="线程数"
+      width="180">
+    </el-table-column>
+
+    <el-table-column
+      prop="name"
+      label="执行时间"
+      width="180">
+    </el-table-column>
+
+    <el-table-column
+      prop="gmt_modified"
+      label="修改日期"
       width="180">
     </el-table-column>
 
